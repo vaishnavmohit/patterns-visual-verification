@@ -1,0 +1,201 @@
+test_id,uid,family,polarity,correct_label,wrong_label,shared_component,overlap
+bd_unbala_trapezoid_right_triangle-uneven_band_four_arcs_0000_neg,bd_unbala_trapezoid_right_triangle-uneven_band_four_arcs_0000,bd,neg,unbalanced trapezoid right_triangle AND uneven band four arcs,dagger triangle1 AND no_acute_angle four_lines8,,False
+bd_two_mismatch_triangles7-jar_triangle1_0000_neg,bd_two_mismatch_triangles7-jar_triangle1_0000,bd,neg,two_mismatch triangles7 AND jar triangle1,rectangle parallelogram60 AND inverse square acute hexagon,,False
+bd_open_rec_symm_arc180-open_symm_arc60_0000_neg,bd_open_rec_symm_arc180-open_symm_arc60_0000,bd,neg,open rectangle symm arc180 AND open symm arc60,inverse quasi-sector330 AND inverse right hexagon,,False
+bd_inverse_asymmetric_fish-bala_two_intersect_circles4_0000_neg,bd_inverse_asymmetric_fish-bala_two_intersect_circles4_0000,bd,neg,inverse asymmetric fish AND balanced two intersect circles4,sector arc AND advanced lamp2,,False
+bd_jar_triangle6-no_acute_angle_four_lines2_0000_pos,bd_jar_triangle6-no_acute_angle_four_lines2_0000,bd,pos,jar triangle6 AND no_acute_angle four_lines2,right equilateral triangles AND thin symm arc_cup,,False
+bd_inverse_sector270-mismatch_triangle_rec3_0000_pos,bd_inverse_sector270-mismatch_triangle_rec3_0000,bd,pos,inverse sector270 AND mismatch triangle rec3,parallel sector1 AND jar triangle3,,False
+bd_two_updown_right_triangles-unbala_three_intersect_circles3_0000_pos,bd_two_updown_right_triangles-unbala_three_intersect_circles3_0000,bd,pos,two updown right triangles AND unbalanced three intersect circles3,balanced three intersect circles1 AND dagger triangle5,,False
+bd_quasi_inverse_sector330-almost_full_moon_0000_pos,bd_quasi_inverse_sector330-almost_full_moon_0000,bd,pos,inverse quasi-sector330 AND almost full moon,open band half circles AND open symm arc60,,False
+bd_trapez_parallelogram-symm_trap_bridge_0000_neg,bd_trapez_parallelogram-symm_trap_bridge_0000,bd,neg,trapezoid parallelogram AND symm trapezoid bridge,thin asymm_quagrangles AND unbalanced two intersect circles1,,False
+bd_sector180-symm_unbala_goldfish_0000_neg,bd_sector180-symm_unbala_goldfish_0000,bd,neg,sector180 AND symmmetric unbalanced goldfish,almost full moon AND balanced_fish,,False
+bd_trapezoid_triangle1-exist_quadrangle_five_lines7_0000_neg,bd_trapezoid_triangle1-exist_quadrangle_five_lines7_0000,bd,neg,trapezoid triangle1 AND exist_quadrangle five_lines7,inverse rectangle acute hexagon AND necked six_lines16,,False
+bd_symm_trans_arc_lamp-parallel_sector4_0000_neg,bd_symm_trans_arc_lamp-parallel_sector4_0000,bd,neg,symm trans arc lamp AND parallel sector4,two mirror right triangles AND open arc line arc5,,False
+bd_square_right_triangle-symm_axe_0000_neg,bd_square_right_triangle-symm_axe_0000,bd,neg,square right_triangle AND symm axe,open rectangle symm arc180 AND open symm arc60,,False
+bd_rect_parallelogram60-inverse_square_acute_hexagon_0000_pos,bd_rect_parallelogram60-inverse_square_acute_hexagon_0000,bd,pos,rectangle parallelogram60 AND inverse square acute hexagon,symmmetric unbalanced goldfish AND open arc line arc6,,False
+bd_mismatch_sector_square3-thin_sym_nail3_0000_neg,bd_mismatch_sector_square3-thin_sym_nail3_0000,bd,neg,mismatch sector square3 AND thin symmetric nail3,square right_triangle AND symm axe,,False
+bd_bala_three_intersect_circles1-dagger_triangle5_0000_neg,bd_bala_three_intersect_circles1-dagger_triangle5_0000,bd,neg,balanced three intersect circles1 AND dagger triangle5,inverse quasi-sector330 AND almost full moon,,False
+bd_symm_trans_band-open_symm_arc60_0000_neg,bd_symm_trans_band-open_symm_arc60_0000,bd,neg,symm transposed band AND open symm arc60,mismatch sector rec3 AND irregular jar triangle3,,False
+bd_open_band_half_circles-open_symm_arc60_0000_neg,bd_open_band_half_circles-open_symm_arc60_0000,bd,neg,open band half circles AND open symm arc60,symm transposed band AND open symm arc60,open symm arc60,True
+bd_quasi_inverse_sector330-inverse_right_hexagon_0000_pos,bd_quasi_inverse_sector330-inverse_right_hexagon_0000,bd,pos,inverse quasi-sector330 AND inverse right hexagon,unbalanced trapezoid right_triangle AND uneven band four arcs,,False
+bd_two_symm_unbala_quadrangles-mismatch_sector_rec4_0000_neg,bd_two_symm_unbala_quadrangles-mismatch_sector_rec4_0000,bd,neg,two symm_unbala quadrangles AND mismatch sector rec4,transposed band AND no_two_parts sector9,,False
+bd_inverse_right_hexagon-thin_exist_triangle4_0000_pos,bd_inverse_right_hexagon-thin_exist_triangle4_0000,bd,pos,inverse right hexagon AND thin exist_triangle4,inverse symmetric dagger AND two_mismatch sectors6,,False
+bd_parallel_sector1-jar_triangle3_0000_pos,bd_parallel_sector1-jar_triangle3_0000,bd,pos,parallel sector1 AND jar triangle3,inverse right hexagon AND thin exist_triangle4,,False
+bd_dagger_triangle1-no_acute_angle_four_lines8_0000_pos,bd_dagger_triangle1-no_acute_angle_four_lines8_0000,bd,pos,dagger triangle1 AND no_acute_angle four_lines8,square dagger2 AND exist_triangle three_lines9,,False
+bd_inverse_symm_dagger-two_mismatch_sectors6_0000_neg,bd_inverse_symm_dagger-two_mismatch_sectors6_0000,bd,neg,inverse symmetric dagger AND two_mismatch sectors6,band three arcs2 AND open s new2,,False
+bd_acute_nonequi_triangle-obtuse_nonequi_triangle_0000_pos,bd_acute_nonequi_triangle-obtuse_nonequi_triangle_0000,bd,pos,acute non-equicrural triangle AND obtuse non-equicrural triangle,open right trapezoid AND exist_triangle eight_lines4,,False
+bd_thin_asymm_quagrangles-unbala_two_intersect_circles1_0000_neg,bd_thin_asymm_quagrangles-unbala_two_intersect_circles1_0000,bd,neg,thin asymm_quagrangles AND unbalanced two intersect circles1,inverse asymmetric fish AND balanced two intersect circles4,,False
+bd_band_three_arcs2-open_s_new2_0000_pos,bd_band_three_arcs2-open_s_new2_0000,bd,pos,band three arcs2 AND open s new2,two symm_unbala quadrangles AND mismatch sector rec4,,False
+bd_open_right_trapezoid-exist_triangle_eight_lines4_0000_pos,bd_open_right_trapezoid-exist_triangle_eight_lines4_0000,bd,pos,open right trapezoid AND exist_triangle eight_lines4,mismatch sector square3 AND thin symmetric nail3,,False
+bd_acute_nonequi_triangle-thin_asymmetric_arrow_0000_neg,bd_acute_nonequi_triangle-thin_asymmetric_arrow_0000,bd,neg,acute non-equicrural triangle AND thin asymmetric arrow,small linersection of two circles AND thin symmetric boat,,False
+bd_symm_unbala_goldfish-open_arc_line_arc6_0000_neg,bd_symm_unbala_goldfish-open_arc_line_arc6_0000,bd,neg,symmmetric unbalanced goldfish AND open arc line arc6,open_line arc2 AND necked eight_lines7,,False
+bd_almost_full_moon-balanced_fish_0000_neg,bd_almost_full_moon-balanced_fish_0000,bd,neg,almost full moon AND balanced_fish,acute non-equicrural triangle AND thin asymmetric arrow,,False
+bd_small_intersect_circle-thin_symmetric_boat_0000_neg,bd_small_intersect_circle-thin_symmetric_boat_0000,bd,neg,small linersection of two circles AND thin symmetric boat,two_mismatch triangles7 AND jar triangle1,,False
+bd_open_band_three_arcs4-hat_sector10_0000_neg,bd_open_band_three_arcs4-hat_sector10_0000,bd,neg,open band three arcs4 AND hat sector10,advanced lamp6 AND open triangle6,,False
+bd_mismatch_sector_rec3-irregular_jar_triangle3_0000_pos,bd_mismatch_sector_rec3-irregular_jar_triangle3_0000,bd,pos,mismatch sector rec3 AND irregular jar triangle3,unbalanced dagger triangle AND thin symm_quagrangles,,False
+bd_trans_band-no_two_parts_sector9_0000_pos,bd_trans_band-no_two_parts_sector9_0000,bd,pos,transposed band AND no_two_parts sector9,trapezoid triangle1 AND exist_quadrangle five_lines7,,False
+bd_advanced_lamp6-open_triangle6_0000_pos,bd_advanced_lamp6-open_triangle6_0000,bd,pos,advanced lamp6 AND open triangle6,trapezoid parallelogram AND symm trapezoid bridge,,False
+bd_open_line_arc2-necked_eight_lines7_0000_neg,bd_open_line_arc2-necked_eight_lines7_0000,bd,neg,open_line arc2 AND necked eight_lines7,symm trans arc lamp AND parallel sector4,,False
+bd_right_equilateral_triangles-thin_symm_arc_cup_0000_pos,bd_right_equilateral_triangles-thin_symm_arc_cup_0000,bd,pos,right equilateral triangles AND thin symm arc_cup,inverse triangle acute hexagon AND thin transposed band,,False
+bd_inverse_triangle_acute_hexagon-thin_trans_band_0000_pos,bd_inverse_triangle_acute_hexagon-thin_trans_band_0000,bd,pos,inverse triangle acute hexagon AND thin transposed band,thin symm band AND no_acute_angle four_lines4,,False
+bd_open_s1-bala_two_intersect_circles2_0000_pos,bd_open_s1-bala_two_intersect_circles2_0000,bd,pos,open s1 AND balanced two intersect circles2,band three arcs2 AND medium linersection of two circles,,False
+bd_inverse_rect_acute_hexagon-necked_six_lines16_0000_pos,bd_inverse_rect_acute_hexagon-necked_six_lines16_0000,bd,pos,inverse rectangle acute hexagon AND necked six_lines16,open band three arcs4 AND hat sector10,,False
+bd_sector_arc-advanced_lamp2_0000_pos,bd_sector_arc-advanced_lamp2_0000,bd,pos,sector arc AND advanced lamp2,two updown right triangles AND unbalanced three intersect circles3,,False
+bd_band_three_arcs2-medium_intersect_circle_0000_pos,bd_band_three_arcs2-medium_intersect_circle_0000,bd,pos,band three arcs2 AND medium linersection of two circles,symmetric dagger AND two_mismatch triangles9,,False
+bd_obtuse_nonisosc_trapezoid-parallel_sector6_0000_pos,bd_obtuse_nonisosc_trapezoid-parallel_sector6_0000,bd,pos,obtuse non-isosceles trapezoid AND parallel sector6,two equilateral triangles AND two mirror right triangles,,False
+bd_square_dagger2-exist_triangle_three_lines9_0000_neg,bd_square_dagger2-exist_triangle_three_lines9_0000,bd,neg,square dagger2 AND exist_triangle three_lines9,jar triangle6 AND no_acute_angle four_lines2,,False
+bd_symmetric_dagger-two_mismatch_triangles9_0000_neg,bd_symmetric_dagger-two_mismatch_triangles9_0000,bd,neg,symmetric dagger AND two_mismatch triangles9,obtuse non-isosceles trapezoid AND parallel sector6,,False
+bd_two_equilateral_triangles-two_mirror_right_triangles_0000_neg,bd_two_equilateral_triangles-two_mirror_right_triangles_0000,bd,neg,two equilateral triangles AND two mirror right triangles,sector180 AND symmmetric unbalanced goldfish,,False
+bd_unbala_dagger_triangle-thin_symm_quagrangles_0000_pos,bd_unbala_dagger_triangle-thin_symm_quagrangles_0000,bd,pos,unbalanced dagger triangle AND thin symm_quagrangles,open s1 AND balanced two intersect circles2,,False
+bd_two_mirror_right_triangles-open_arc_line_arc5_0000_neg,bd_two_mirror_right_triangles-open_arc_line_arc5_0000,bd,neg,two mirror right triangles AND open arc line arc5,acute non-equicrural triangle AND obtuse non-equicrural triangle,,False
+bd_thin_symm_band-no_acute_angle_four_lines4_0000_neg,bd_thin_symm_band-no_acute_angle_four_lines4_0000,bd,neg,thin symm band AND no_acute_angle four_lines4,inverse sector270 AND mismatch triangle rec3,,False
+ff_nact4_5_0162_neg,ff_nact4_5_0162,ff,neg,nact4 5,nact9,,False
+ff_nact9_0099_pos,ff_nact9_0099,ff,pos,nact9,nact4 5,,False
+ff_nact4_5_0011_neg,ff_nact4_5_0011,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0080_pos,ff_nact4_5_0080,ff,pos,nact4 5,nact9,,False
+ff_nact9_0241_pos,ff_nact9_0241,ff,pos,nact9,nact4 5,,False
+ff_nact9_0073_pos,ff_nact9_0073,ff,pos,nact9,nact4 5,,False
+ff_nact4_5_0110_pos,ff_nact4_5_0110,ff,pos,nact4 5,nact9,,False
+ff_nact9_0269_pos,ff_nact9_0269,ff,pos,nact9,nact4 5,,False
+ff_nact9_0122_pos,ff_nact9_0122,ff,pos,nact9,nact4 5,,False
+ff_nact4_5_0244_pos,ff_nact4_5_0244,ff,pos,nact4 5,nact9,,False
+ff_nact9_0276_neg,ff_nact9_0276,ff,neg,nact9,nact4 5,,False
+ff_nact9_0209_neg,ff_nact9_0209,ff,neg,nact9,nact4 5,,False
+ff_nact4_5_0253_neg,ff_nact4_5_0253,ff,neg,nact4 5,nact9,,False
+ff_nact9_0083_pos,ff_nact9_0083,ff,pos,nact9,nact4 5,,False
+ff_nact9_0138_neg,ff_nact9_0138,ff,neg,nact9,nact4 5,,False
+ff_nact9_0007_pos,ff_nact9_0007,ff,pos,nact9,nact4 5,,False
+ff_nact9_0139_pos,ff_nact9_0139,ff,pos,nact9,nact4 5,,False
+ff_nact9_0164_neg,ff_nact9_0164,ff,neg,nact9,nact4 5,,False
+ff_nact9_0298_neg,ff_nact9_0298,ff,neg,nact9,nact4 5,,False
+ff_nact9_0278_neg,ff_nact9_0278,ff,neg,nact9,nact4 5,,False
+ff_nact4_5_0163_neg,ff_nact4_5_0163,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0237_pos,ff_nact4_5_0237,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0297_pos,ff_nact4_5_0297,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0137_pos,ff_nact4_5_0137,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0256_pos,ff_nact4_5_0256,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0062_neg,ff_nact4_5_0062,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0284_neg,ff_nact4_5_0284,ff,neg,nact4 5,nact9,,False
+ff_nact9_0111_pos,ff_nact9_0111,ff,pos,nact9,nact4 5,,False
+ff_nact4_5_0109_pos,ff_nact4_5_0109,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0106_pos,ff_nact4_5_0106,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0206_neg,ff_nact4_5_0206,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0248_pos,ff_nact4_5_0248,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0249_pos,ff_nact4_5_0249,ff,pos,nact4 5,nact9,,False
+ff_nact9_0028_pos,ff_nact9_0028,ff,pos,nact9,nact4 5,,False
+ff_nact9_0196_neg,ff_nact9_0196,ff,neg,nact9,nact4 5,,False
+ff_nact9_0072_neg,ff_nact9_0072,ff,neg,nact9,nact4 5,,False
+ff_nact4_5_0294_neg,ff_nact4_5_0294,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0280_neg,ff_nact4_5_0280,ff,neg,nact4 5,nact9,,False
+ff_nact9_0261_neg,ff_nact9_0261,ff,neg,nact9,nact4 5,,False
+ff_nact9_0028_neg,ff_nact9_0028,ff,neg,nact9,nact4 5,,False
+ff_nact4_5_0258_neg,ff_nact4_5_0258,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0091_pos,ff_nact4_5_0091,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0061_pos,ff_nact4_5_0061,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0209_neg,ff_nact4_5_0209,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0190_neg,ff_nact4_5_0190,ff,neg,nact4 5,nact9,,False
+ff_nact4_5_0276_pos,ff_nact4_5_0276,ff,pos,nact4 5,nact9,,False
+ff_nact4_5_0152_pos,ff_nact4_5_0152,ff,pos,nact4 5,nact9,,False
+ff_nact9_0197_pos,ff_nact9_0197,ff,pos,nact9,nact4 5,,False
+ff_nact9_0210_neg,ff_nact9_0210,ff,neg,nact9,nact4 5,,False
+ff_nact4_5_0175_neg,ff_nact4_5_0175,ff,neg,nact4 5,nact9,,False
+hd_has_curve-has_four_straight_lines_0004_pos,hd_has_curve-has_four_straight_lines_0004,hd_comb,pos,"has curve, has four straight lines","self transposed, exist quadrangle",,False
+hd_has_seven_straight_lines-exist_quadrangle_0007_pos,hd_has_seven_straight_lines-exist_quadrangle_0007,hd_comb,pos,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_has_three_straight_lines-has_two_parts_0000_pos,hd_has_three_straight_lines-has_two_parts_0000,hd_comb,pos,"has three straight lines, has two parts","has two parts, exist triangle",has two parts,True
+hd_has_three_straight_lines-has_two_parts_0006_pos,hd_has_three_straight_lines-has_two_parts_0006,hd_comb,pos,"has three straight lines, has two parts","has two parts, exist triangle",has two parts,True
+hd_closed_shape-has_acute_angle_0013_neg,hd_closed_shape-has_acute_angle_0013,hd_comb,neg,"closed shape, has acute angle","has curve, has acute angle",has acute angle,True
+hd_symmetric-has_four_straight_lines_0000_pos,hd_symmetric-has_four_straight_lines_0000,hd_comb,pos,"symmetric, has four straight lines","closed shape, has acute angle",,False
+hd_has_three_straight_lines-closed_shape_0007_neg,hd_has_three_straight_lines-closed_shape_0007,hd_comb,neg,"has three straight lines, closed shape","exist triangle, exist quadrangle",,False
+hd_thin_shape-has_obtuse_angle_0007_neg,hd_thin_shape-has_obtuse_angle_0007,hd_comb,neg,"thin shape, has obtuse angle","has three straight lines, thin shape",thin shape,True
+hd_has_two_parts-exist_triangle_0001_neg,hd_has_two_parts-exist_triangle_0001,hd_comb,neg,"has two parts, exist triangle","has seven straight lines, exist quadrangle",,False
+hd_has_three_straight_lines-has_two_parts_0016_pos,hd_has_three_straight_lines-has_two_parts_0016,hd_comb,pos,"has three straight lines, has two parts","has two parts, exist triangle",has two parts,True
+hd_has_acute_angle-symmetric_transposed_0002_neg,hd_has_acute_angle-symmetric_transposed_0002,hd_comb,neg,"has acute angle, symmetric transposed","has straight line, has line crossing",,False
+hd_closed_shape-has_acute_angle_0008_neg,hd_closed_shape-has_acute_angle_0008,hd_comb,neg,"closed shape, has acute angle","has curve, has acute angle",has acute angle,True
+hd_symmetric-has_four_straight_lines_0010_pos,hd_symmetric-has_four_straight_lines_0010,hd_comb,pos,"symmetric, has four straight lines","closed shape, has acute angle",,False
+hd_balanced_two-exist_regular_0014_neg,hd_balanced_two-exist_regular_0014,hd_comb,neg,"balanced two, exist regular","has acute angle, symmetric transposed",,False
+hd_balanced_two-exist_triangle_0007_pos,hd_balanced_two-exist_triangle_0007,hd_comb,pos,"balanced two, exist triangle","has curve, has four straight lines",,False
+hd_has_seven_straight_lines-exist_quadrangle_0008_neg,hd_has_seven_straight_lines-exist_quadrangle_0008,hd_comb,neg,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_closed_shape-has_acute_angle_0007_pos,hd_closed_shape-has_acute_angle_0007,hd_comb,pos,"closed shape, has acute angle","has curve, has acute angle",has acute angle,True
+hd_has_seven_straight_lines-exist_quadrangle_0016_pos,hd_has_seven_straight_lines-exist_quadrangle_0016,hd_comb,pos,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_has_curve-has_acute_angle_0018_pos,hd_has_curve-has_acute_angle_0018,hd_comb,pos,"has curve, has acute angle","has two parts, symmetric transposed",,False
+hd_has_three_straight_lines-thin_shape_0005_pos,hd_has_three_straight_lines-thin_shape_0005,hd_comb,pos,"has three straight lines, thin shape","has three straight lines, closed shape",has three straight lines,True
+hd_self_transposed-exist_quadrangle_0005_neg,hd_self_transposed-exist_quadrangle_0005,hd_comb,neg,"self transposed, exist quadrangle","thin shape, has obtuse angle",,False
+hd_has_straight_line-has_line_crossing_0009_neg,hd_has_straight_line-has_line_crossing_0009,hd_comb,neg,"has straight line, has line crossing","symmetric, has four straight lines",,False
+hd_balanced_two-exist_triangle_0010_neg,hd_balanced_two-exist_triangle_0010,hd_comb,neg,"balanced two, exist triangle","has curve, has four straight lines",,False
+hd_has_two_parts-symmetric_transposed_0007_pos,hd_has_two_parts-symmetric_transposed_0007,hd_comb,pos,"has two parts, symmetric transposed","has three straight lines, has two parts",has two parts,True
+hd_has_curve-has_acute_angle_0010_pos,hd_has_curve-has_acute_angle_0010,hd_comb,pos,"has curve, has acute angle","has two parts, symmetric transposed",,False
+hd_has_acute_angle-symmetric_transposed_0008_neg,hd_has_acute_angle-symmetric_transposed_0008,hd_comb,neg,"has acute angle, symmetric transposed","has straight line, has line crossing",,False
+hd_has_three_straight_lines-thin_shape_0018_neg,hd_has_three_straight_lines-thin_shape_0018,hd_comb,neg,"has three straight lines, thin shape","has three straight lines, closed shape",has three straight lines,True
+hd_has_curve-has_acute_angle_0005_neg,hd_has_curve-has_acute_angle_0005,hd_comb,neg,"has curve, has acute angle","has two parts, symmetric transposed",,False
+hd_balanced_two-exist_triangle_0014_neg,hd_balanced_two-exist_triangle_0014,hd_comb,neg,"balanced two, exist triangle","has curve, has four straight lines",,False
+hd_has_seven_straight_lines-exist_quadrangle_0000_pos,hd_has_seven_straight_lines-exist_quadrangle_0000,hd_comb,pos,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_has_seven_straight_lines-exist_quadrangle_0016_neg,hd_has_seven_straight_lines-exist_quadrangle_0016,hd_comb,neg,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_has_curve-has_straight_line_0006_neg,hd_has_curve-has_straight_line_0006,hd_comb,neg,"has curve, has straight line","balanced two, exist triangle",,False
+hd_symmetric-has_four_straight_lines_0008_neg,hd_symmetric-has_four_straight_lines_0008,hd_comb,neg,"symmetric, has four straight lines","closed shape, has acute angle",,False
+hd_self_transposed-exist_quadrangle_0013_neg,hd_self_transposed-exist_quadrangle_0013,hd_comb,neg,"self transposed, exist quadrangle","thin shape, has obtuse angle",,False
+hd_has_acute_angle-symmetric_transposed_0015_pos,hd_has_acute_angle-symmetric_transposed_0015,hd_comb,pos,"has acute angle, symmetric transposed","has straight line, has line crossing",,False
+hd_has_two_parts-symmetric_transposed_0016_neg,hd_has_two_parts-symmetric_transposed_0016,hd_comb,neg,"has two parts, symmetric transposed","has three straight lines, has two parts",has two parts,True
+hd_self_transposed-exist_quadrangle_0001_pos,hd_self_transposed-exist_quadrangle_0001,hd_comb,pos,"self transposed, exist quadrangle","thin shape, has obtuse angle",,False
+hd_has_straight_line-has_line_crossing_0003_neg,hd_has_straight_line-has_line_crossing_0003,hd_comb,neg,"has straight line, has line crossing","symmetric, has four straight lines",,False
+hd_has_curve-has_four_straight_lines_0016_neg,hd_has_curve-has_four_straight_lines_0016,hd_comb,neg,"has curve, has four straight lines","self transposed, exist quadrangle",,False
+hd_has_curve-has_four_straight_lines_0004_neg,hd_has_curve-has_four_straight_lines_0004,hd_comb,neg,"has curve, has four straight lines","self transposed, exist quadrangle",,False
+hd_has_seven_straight_lines-exist_quadrangle_0007_neg,hd_has_seven_straight_lines-exist_quadrangle_0007,hd_comb,neg,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_balanced_two-exist_regular_0002_pos,hd_balanced_two-exist_regular_0002,hd_comb,pos,"balanced two, exist regular","has acute angle, symmetric transposed",,False
+hd_has_straight_line-has_line_crossing_0018_pos,hd_has_straight_line-has_line_crossing_0018,hd_comb,pos,"has straight line, has line crossing","symmetric, has four straight lines",,False
+hd_thin_shape-has_obtuse_angle_0013_neg,hd_thin_shape-has_obtuse_angle_0013,hd_comb,neg,"thin shape, has obtuse angle","has three straight lines, thin shape",thin shape,True
+hd_has_seven_straight_lines-exist_quadrangle_0012_pos,hd_has_seven_straight_lines-exist_quadrangle_0012,hd_comb,pos,"has seven straight lines, exist quadrangle","convex, symmetric",,False
+hd_has_three_straight_lines-closed_shape_0005_pos,hd_has_three_straight_lines-closed_shape_0005,hd_comb,pos,"has three straight lines, closed shape","exist triangle, exist quadrangle",,False
+hd_balanced_two-exist_triangle_0010_pos,hd_balanced_two-exist_triangle_0010,hd_comb,pos,"balanced two, exist triangle","has curve, has four straight lines",,False
+hd_has_two_parts-symmetric_transposed_0003_pos,hd_has_two_parts-symmetric_transposed_0003,hd_comb,pos,"has two parts, symmetric transposed","has three straight lines, has two parts",has two parts,True
+hd_convex-symmetric_0006_pos,hd_convex-symmetric_0006,hd_comb,pos,"convex, symmetric","has curve, has straight line",,False
+hd_exist_triangle-exist_quadrangle_0006_pos,hd_exist_triangle-exist_quadrangle_0006,hd_comb,pos,"exist triangle, exist quadrangle","balanced two, exist regular",,False
+hd_has_eight_straight_lines-exist_regular_0013_pos,hd_has_eight_straight_lines-exist_regular_0013,hd_novel,pos,"has eight straight lines, exist regular","has eight straight lines, symmetric transposed",has eight straight lines,True
+hd_has_eight_straight_lines-unbalanced_two_0001_neg,hd_has_eight_straight_lines-unbalanced_two_0001,hd_novel,neg,"has eight straight lines, unbalanced two",has eight straight lines,has eight straight lines,True
+hd_symmetric-has_eight_straight_lines_0015_pos,hd_symmetric-has_eight_straight_lines_0015,hd_novel,pos,"symmetric, has eight straight lines","has eight straight lines, exist triangle",has eight straight lines,True
+hd_has_eight_straight_lines-has_line_crossing_0000_pos,hd_has_eight_straight_lines-has_line_crossing_0000,hd_novel,pos,"has eight straight lines, has line crossing","has seven straight lines, has eight straight lines",has eight straight lines,True
+hd_self_transposed-has_eight_straight_lines_0014_pos,hd_self_transposed-has_eight_straight_lines_0014,hd_novel,pos,"self transposed, has eight straight lines","has eight straight lines, thin shape",has eight straight lines,True
+hd_has_eight_straight_lines-has_two_parts_0018_neg,hd_has_eight_straight_lines-has_two_parts_0018,hd_novel,neg,"has eight straight lines, has two parts","has curve, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines_0015_neg,hd_has_eight_straight_lines_0015,hd_novel,neg,has eight straight lines,"symmetric, has eight straight lines",has eight straight lines,True
+hd_has_six_straight_lines-has_eight_straight_lines_0012_pos,hd_has_six_straight_lines-has_eight_straight_lines_0012,hd_novel,pos,"has six straight lines, has eight straight lines","has eight straight lines, unbalanced two",has eight straight lines,True
+hd_has_six_straight_lines-has_eight_straight_lines_0008_pos,hd_has_six_straight_lines-has_eight_straight_lines_0008,hd_novel,pos,"has six straight lines, has eight straight lines","has eight straight lines, unbalanced two",has eight straight lines,True
+hd_has_seven_straight_lines-has_eight_straight_lines_0016_neg,hd_has_seven_straight_lines-has_eight_straight_lines_0016,hd_novel,neg,"has seven straight lines, has eight straight lines","has eight straight lines, has two parts",has eight straight lines,True
+hd_has_eight_straight_lines-exist_triangle_0018_pos,hd_has_eight_straight_lines-exist_triangle_0018,hd_novel,pos,"has eight straight lines, exist triangle","self transposed, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-has_line_crossing_0009_neg,hd_has_eight_straight_lines-has_line_crossing_0009,hd_novel,neg,"has eight straight lines, has line crossing","has seven straight lines, has eight straight lines",has eight straight lines,True
+hd_has_seven_straight_lines-has_eight_straight_lines_0019_pos,hd_has_seven_straight_lines-has_eight_straight_lines_0019,hd_novel,pos,"has seven straight lines, has eight straight lines","has eight straight lines, has two parts",has eight straight lines,True
+hd_has_curve-has_eight_straight_lines_0016_neg,hd_has_curve-has_eight_straight_lines_0016,hd_novel,neg,"has curve, has eight straight lines","has six straight lines, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-symmetric_transposed_0002_neg,hd_has_eight_straight_lines-symmetric_transposed_0002,hd_novel,neg,"has eight straight lines, symmetric transposed","has eight straight lines, balanced two",has eight straight lines,True
+hd_has_eight_straight_lines-has_line_crossing_0007_pos,hd_has_eight_straight_lines-has_line_crossing_0007,hd_novel,pos,"has eight straight lines, has line crossing","has seven straight lines, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-exist_regular_0005_neg,hd_has_eight_straight_lines-exist_regular_0005,hd_novel,neg,"has eight straight lines, exist regular","has eight straight lines, symmetric transposed",has eight straight lines,True
+hd_has_seven_straight_lines-has_eight_straight_lines_0013_pos,hd_has_seven_straight_lines-has_eight_straight_lines_0013,hd_novel,pos,"has seven straight lines, has eight straight lines","has eight straight lines, has two parts",has eight straight lines,True
+hd_has_eight_straight_lines-symmetric_transposed_0019_pos,hd_has_eight_straight_lines-symmetric_transposed_0019,hd_novel,pos,"has eight straight lines, symmetric transposed","has eight straight lines, balanced two",has eight straight lines,True
+hd_has_eight_straight_lines-has_two_parts_0005_neg,hd_has_eight_straight_lines-has_two_parts_0005,hd_novel,neg,"has eight straight lines, has two parts","has curve, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-exist_regular_0019_pos,hd_has_eight_straight_lines-exist_regular_0019,hd_novel,pos,"has eight straight lines, exist regular","has eight straight lines, symmetric transposed",has eight straight lines,True
+hd_has_eight_straight_lines-exist_quadrangle_0006_pos,hd_has_eight_straight_lines-exist_quadrangle_0006,hd_novel,pos,"has eight straight lines, exist quadrangle","has eight straight lines, has line crossing",has eight straight lines,True
+hd_symmetric-has_eight_straight_lines_0009_pos,hd_symmetric-has_eight_straight_lines_0009,hd_novel,pos,"symmetric, has eight straight lines","has eight straight lines, exist triangle",has eight straight lines,True
+hd_has_eight_straight_lines-has_two_parts_0004_neg,hd_has_eight_straight_lines-has_two_parts_0004,hd_novel,neg,"has eight straight lines, has two parts","has curve, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-exist_triangle_0009_pos,hd_has_eight_straight_lines-exist_triangle_0009,hd_novel,pos,"has eight straight lines, exist triangle","self transposed, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-balanced_two_0010_neg,hd_has_eight_straight_lines-balanced_two_0010,hd_novel,neg,"has eight straight lines, balanced two","has eight straight lines, exist quadrangle",has eight straight lines,True
+hd_symmetric-has_eight_straight_lines_0010_neg,hd_symmetric-has_eight_straight_lines_0010,hd_novel,neg,"symmetric, has eight straight lines","has eight straight lines, exist triangle",has eight straight lines,True
+hd_has_eight_straight_lines-thin_shape_0002_pos,hd_has_eight_straight_lines-thin_shape_0002,hd_novel,pos,"has eight straight lines, thin shape","has eight straight lines, exist regular",has eight straight lines,True
+hd_self_transposed-has_eight_straight_lines_0008_pos,hd_self_transposed-has_eight_straight_lines_0008,hd_novel,pos,"self transposed, has eight straight lines","has eight straight lines, thin shape",has eight straight lines,True
+hd_has_eight_straight_lines-symmetric_transposed_0005_pos,hd_has_eight_straight_lines-symmetric_transposed_0005,hd_novel,pos,"has eight straight lines, symmetric transposed","has eight straight lines, balanced two",has eight straight lines,True
+hd_has_eight_straight_lines-balanced_two_0001_pos,hd_has_eight_straight_lines-balanced_two_0001,hd_novel,pos,"has eight straight lines, balanced two","has eight straight lines, exist quadrangle",has eight straight lines,True
+hd_has_eight_straight_lines-exist_regular_0007_neg,hd_has_eight_straight_lines-exist_regular_0007,hd_novel,neg,"has eight straight lines, exist regular","has eight straight lines, symmetric transposed",has eight straight lines,True
+hd_has_eight_straight_lines_0005_pos,hd_has_eight_straight_lines_0005,hd_novel,pos,has eight straight lines,"symmetric, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-thin_shape_0004_pos,hd_has_eight_straight_lines-thin_shape_0004,hd_novel,pos,"has eight straight lines, thin shape","has eight straight lines, exist regular",has eight straight lines,True
+hd_has_eight_straight_lines-exist_quadrangle_0008_pos,hd_has_eight_straight_lines-exist_quadrangle_0008,hd_novel,pos,"has eight straight lines, exist quadrangle","has eight straight lines, has line crossing",has eight straight lines,True
+hd_has_eight_straight_lines_0005_neg,hd_has_eight_straight_lines_0005,hd_novel,neg,has eight straight lines,"symmetric, has eight straight lines",has eight straight lines,True
+hd_self_transposed-has_eight_straight_lines_0008_neg,hd_self_transposed-has_eight_straight_lines_0008,hd_novel,neg,"self transposed, has eight straight lines","has eight straight lines, thin shape",has eight straight lines,True
+hd_has_eight_straight_lines-symmetric_transposed_0015_pos,hd_has_eight_straight_lines-symmetric_transposed_0015,hd_novel,pos,"has eight straight lines, symmetric transposed","has eight straight lines, balanced two",has eight straight lines,True
+hd_has_eight_straight_lines_0013_neg,hd_has_eight_straight_lines_0013,hd_novel,neg,has eight straight lines,"symmetric, has eight straight lines",has eight straight lines,True
+hd_self_transposed-has_eight_straight_lines_0000_pos,hd_self_transposed-has_eight_straight_lines_0000,hd_novel,pos,"self transposed, has eight straight lines","has eight straight lines, thin shape",has eight straight lines,True
+hd_has_seven_straight_lines-has_eight_straight_lines_0009_neg,hd_has_seven_straight_lines-has_eight_straight_lines_0009,hd_novel,neg,"has seven straight lines, has eight straight lines","has eight straight lines, has two parts",has eight straight lines,True
+hd_has_six_straight_lines-has_eight_straight_lines_0003_neg,hd_has_six_straight_lines-has_eight_straight_lines_0003,hd_novel,neg,"has six straight lines, has eight straight lines","has eight straight lines, unbalanced two",has eight straight lines,True
+hd_has_eight_straight_lines-exist_quadrangle_0015_neg,hd_has_eight_straight_lines-exist_quadrangle_0015,hd_novel,neg,"has eight straight lines, exist quadrangle","has eight straight lines, has line crossing",has eight straight lines,True
+hd_has_eight_straight_lines-exist_regular_0005_pos,hd_has_eight_straight_lines-exist_regular_0005,hd_novel,pos,"has eight straight lines, exist regular","has eight straight lines, symmetric transposed",has eight straight lines,True
+hd_has_eight_straight_lines-unbalanced_two_0012_neg,hd_has_eight_straight_lines-unbalanced_two_0012,hd_novel,neg,"has eight straight lines, unbalanced two",has eight straight lines,has eight straight lines,True
+hd_has_eight_straight_lines_0001_neg,hd_has_eight_straight_lines_0001,hd_novel,neg,has eight straight lines,"symmetric, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-has_two_parts_0015_pos,hd_has_eight_straight_lines-has_two_parts_0015,hd_novel,pos,"has eight straight lines, has two parts","has curve, has eight straight lines",has eight straight lines,True
+hd_symmetric-has_eight_straight_lines_0003_pos,hd_symmetric-has_eight_straight_lines_0003,hd_novel,pos,"symmetric, has eight straight lines","has eight straight lines, exist triangle",has eight straight lines,True
+hd_has_curve-has_eight_straight_lines_0007_neg,hd_has_curve-has_eight_straight_lines_0007,hd_novel,neg,"has curve, has eight straight lines","has six straight lines, has eight straight lines",has eight straight lines,True
+hd_has_eight_straight_lines-exist_quadrangle_0014_pos,hd_has_eight_straight_lines-exist_quadrangle_0014,hd_novel,pos,"has eight straight lines, exist quadrangle","has eight straight lines, has line crossing",has eight straight lines,True

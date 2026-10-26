@@ -1,0 +1,684 @@
+{
+  "status": "code and frozen machine-output snapshot; manuscripts and all human result/data files excluded",
+  "repository_url": "https://github.com/vaishnavmohit/patterns-visual-verification",
+  "git_history_included": false,
+  "participant_level_records_included": false,
+  "human_aggregate_outputs_included": false,
+  "manuscripts_included": false,
+  "provenance_path_normalization": [
+    {
+      "file": "machine_result/clean_machine_data.csv",
+      "source_sha256": "a32b3e5a2f268c9e9f2217ebf9ee3ba8ec0b980260825ae73e921414bf2ca4f4",
+      "change": "personal home prefixes replaced by external-results/",
+      "columns": [
+        "source_results_path",
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "rows": 14905,
+      "changed_cells": 34253
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/bd.xlsx",
+      "source_sha256": "3e9b977c8b800f6ef0cf88b137d738649b01a73ef8c338d38a823b0b4a69cc50",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/ff.xlsx",
+      "source_sha256": "ff47213b4b5cbe41075a7c02567a9906b849c7687ec6e5316868672c128f2709",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/hd_comb.xlsx",
+      "source_sha256": "97e7b82f0a826323c50e0538a59f4109073746c01edb014417e1fe5c62ecee23",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/hd_novel.xlsx",
+      "source_sha256": "004933d9e99c93537e042ec55488a211471cee23e5d7fea43f46e8eebaeabd2b",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/bd.xlsx",
+      "source_sha256": "d8d57d87cdbe698aebee5143b01c5f03340ec4eaa8f2d4afb3cda443df2c6981",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/ff.xlsx",
+      "source_sha256": "05a1bf03c8b6b3f4b3a660763ad4aecd681c349e414fbb8cadff0183b9ab247b",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/hd_comb.xlsx",
+      "source_sha256": "88b8b9e571cc0286522373a5b40b25c9eba68c47c42db0e82147f22e5e77d200",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/hd_novel.xlsx",
+      "source_sha256": "0c638e0780563c36db5d4081849a409280ae4831b7778b6263e46700a11e59f1",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/bd.xlsx",
+      "source_sha256": "7413688542380d44bd3740145b35f66eaf3f2b0e005a87e7a081f5160b39ad0c",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/ff.xlsx",
+      "source_sha256": "3b32c9c4f8ac4f9deeb2ae2637afaf891681d1c382a502c1d22fc49fcc91ea4a",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/hd_comb.xlsx",
+      "source_sha256": "0b75e1ef4dee9efea7fa3b49ab1ea675e75c096993f53c0cbe40c3874ef8221c",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/hd_novel.xlsx",
+      "source_sha256": "90504491f90bbe991fc9d29b0470fdaea0269faf61559bb60cd217c8a77ac377",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/bd.xlsx",
+      "source_sha256": "bc5f6d50677683431f699e304d22f4fdaa1138cdac086f5ec890077062a02808",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/ff.xlsx",
+      "source_sha256": "2f527f97c5b7be368d49faa5033688665fbb4bf1271d7e5c36c7b6204cc11564",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/hd_comb.xlsx",
+      "source_sha256": "28ac79012a694ff416b8e4b97233fafca0f4223a28e8fac06a14b50fd88171e2",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/hd_novel.xlsx",
+      "source_sha256": "5d86b6e4fb2750d213e91bc7d27eb7fdb6416064b7f0ba6399f1f9829e8d7f7f",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/bd.xlsx",
+      "source_sha256": "72561b04cba5b909aec2009b4f33e7217fc572129b87307c66e36088dc0caf07",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/ff.xlsx",
+      "source_sha256": "e1f3de0d82eae05a99b73651a9eebf4f21b08c0ffaec9fe60a6205b3eac3e3f1",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/hd_comb.xlsx",
+      "source_sha256": "7e31ad75edcfcde035b128164d56b8959c754cac8a4dbe869516303a993c5ce2",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/hd_novel.xlsx",
+      "source_sha256": "2de74ec5fe657b3cc45e097ee726a140243263751beff8d823ea834ee14b033b",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/bd.xlsx",
+      "source_sha256": "1b95e90c194204eb810474e07246a26bcfad069bfeb880d66c2724245f6493e0",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/ff.xlsx",
+      "source_sha256": "bafd74e7e1f3c8afcd319a5b325e2882f6fa7f327030ab93a173ca588e15a41a",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/hd_comb.xlsx",
+      "source_sha256": "34bec148d360758e39665f93de8a909eaee5be168e0ed39e51b4b51079533197",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/hd_novel.xlsx",
+      "source_sha256": "f37337161bdf779591d079a2050531c3e9783d724effa16f27b63dd80f57dcaa",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/bd.xlsx",
+      "source_sha256": "8d8e67b3c3ad1c60ac126187e1e9975e2d1302eb698437476512ed1adc66c0aa",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/ff.xlsx",
+      "source_sha256": "40fac36efe79d703598d108f8d022a6e013f3190651df4519a6ba8a8feaf56e7",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/hd_comb.xlsx",
+      "source_sha256": "ebf8cdd3fafee9eac1fa2ef15f3911d28794439722605d9af6e2e69215a531be",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 86
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/hd_novel.xlsx",
+      "source_sha256": "1eec485ec7f7200526883e14c2396227bda94a56da63a8042e49e84fec84fdd3",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 94
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/bd.xlsx",
+      "source_sha256": "aae8fdd1b7bccee0f92a0da2e99826a446b45f1f5e4eda393a4cf31695de2761",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/ff.xlsx",
+      "source_sha256": "d2a6bdc8f8f324aff8170523b8095d9a2a0b18fb49cee488283d4811f391ec90",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 100
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/hd_comb.xlsx",
+      "source_sha256": "334becd8ca2dbba8a5a374050fbe6a08b6f575306cfb019b7954115f70b1ef42",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 86
+    },
+    {
+      "file": "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/hd_novel.xlsx",
+      "source_sha256": "decc527b0e5cfeaf3e4e020e1b08345f945ca252aaf1587b97877b9fb7ab3f8b",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 90
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/action_description/bd.xlsx",
+      "source_sha256": "57f94722c35b3648f6e645c259ac4281ac4c5af1e656c5ade0675d56ddd65dd7",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 16
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/action_description/ff.xlsx",
+      "source_sha256": "3f9e55e28e4047b3dc26995aa84983450038bc05e37e5c50c8541310a7510828",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 6
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/action_description/hd_comb.xlsx",
+      "source_sha256": "32300a626ebb9bc508829c4fbb15c0a87b6b94be89267906a95ff7f005f60219",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 28
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/action_description/hd_novel.xlsx",
+      "source_sha256": "452abd7b15435f495d101167a08cd466dd3df195a345ade656ea4ded16e302a2",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 10
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/action_description_concept_v2/bd.xlsx",
+      "source_sha256": "1aafd604aeea4b9d6e4175a054cf461e2b93e82e62f8d7a7208e8997deba9b87",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 8
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps/bd.xlsx",
+      "source_sha256": "fcf67f1a53fc6d376b39bc763eb6493b0048ed6bc1338837cfd9c08ee5c7b31b",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 14
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps/ff.xlsx",
+      "source_sha256": "73d174e7cdde62e54ea26c74de0d633109edf0d5709bc3505a6bd525f2d00685",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 8
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps/hd_comb.xlsx",
+      "source_sha256": "a33984a38802a85f03021587310df95087197bfff46ae2ef4b9791ae57a25954",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 16
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps/hd_novel.xlsx",
+      "source_sha256": "4b6bfca221e78e5ac9e14a9296aee62ec91f086b96d9017e7b356788a1eeecde",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 14
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps_concept/bd.xlsx",
+      "source_sha256": "aaf309da30523c1f8399a3aa97a28bce0905f9a8ab691efcb1a33e526c6b7767",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 2
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps_concept/ff.xlsx",
+      "source_sha256": "fcef22052854b27e2354636f18a8d77c43c425d03030585f6353234d801bdf70",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 12
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/aps_concept/hd_novel.xlsx",
+      "source_sha256": "8e98a5a1d1da0fc3a2584350d98a027d44b7ef3b583033f7676549d16a46f85f",
+      "change": "personal home prefixes in workbook provenance cells replaced by external-results/; other XML retained",
+      "columns": [
+        "metadata_path",
+        "thinking_text_path"
+      ],
+      "changed_cells": 2
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/run_rerun_prog.sbatch",
+      "source_sha256": "a8462593ba3d82164c0f99040f56f1ce58e0e13ea79621e923ff4d9404495f3c",
+      "change": "SLURM log destinations made relative to job working directory"
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/run_rerun_desc.sbatch",
+      "source_sha256": "53c9948ea0ee87499fc32a695add3b3f299eb8e6c69dbf78469b93262bf61595",
+      "change": "SLURM log destinations made relative to job working directory"
+    },
+    {
+      "file": "analysis/patterns_outputs/qwen36_rerun/model_manifest_sha256.txt",
+      "source_sha256": "b8f928563fba907acffeae4125e0e51afe0aaaaeed7c5d1a60641c5e05547ce4",
+      "change": "personal home prefix replaced by external-model-cache/; model hash retained"
+    }
+  ],
+  "sha256": {
+    ".gitignore": "823b9208d8675c1f99caae33e756b7bedec800b0495d1db63bd0ac0e066f6fa4",
+    "CITATION.cff": "08ffb3da68f0886ab1a932d8e268060b26046730d31a9f36cbfc74b0d49d3d26",
+    "LICENSE": "be8b4017e2100ae9e9865636c5399b6b678c9bd09b3db7c3b057f5418d2cd5dd",
+    "README.md": "65412671b8c0ec40ff46f762d6ebed75af270bcbe59416eb3a923988f2f4423e",
+    "analysis/README.md": "40f7c3615e3eac74e6cf55fab1fbd617d05c92235a27a4a06d02eb9b0db02eee",
+    "analysis/ad_rendered_comparison.py": "92d6a843cba258f570054a5f7289b39b1914bc839132bfcd4849519804048f93",
+    "analysis/caption_fidelity.py": "ace0531dab16a168e61e48b40422ebbc3afed32462f15e511688773911944f78",
+    "analysis/caption_structure_ow.py": "b03c18f6c7abc5190681ce1e40b4a86205faf30dbddf2a30251e529a19c12eb4",
+    "analysis/cue_overlap_sensitivity.py": "6407ed953997b11231665fe8c3c54325c7808f5181fe592bf6d9f557eb7a8daf",
+    "analysis/factorial_caption_sets_figure.py": "e5943c00086aff17b65b67e6ac18aeda1f70da420a9b47ffbcf1288b3d88c780",
+    "analysis/factorial_ladder_figure.py": "970160d12638d50be2a55519486044a2e6013d4ad0d7eff31a7bf5e13f4b5d23",
+    "analysis/factorial_ow_analysis.py": "6caeb20673094a278f4cf0e334ea87426ea2c77cc4d050dc29437d0e368be165",
+    "analysis/factorial_ow_reporting_checks.py": "dff12de47ccb28e8277dbf067f4c6409eb41362a5489ab66fe233cc982cce1c8",
+    "analysis/factorial_ow_secondaries.py": "1c0d573a3d07d76c153122edacb75544532a59722f3cd4db42f7a2fc3de7bda4",
+    "analysis/factorial_planned_model.py": "50812da036245d3a0154f13949284d8e7438f742fa34612a31ebc129e551039e",
+    "analysis/factorial_protocol_provenance.md": "d953f457582b7be716c04f574774055f0aa9f8f2c572e967f97781a96b46aa76",
+    "analysis/factorial_recovered_share.py": "092d83852e281851d4f0c09556acbb7f808e2c4da3582fe5c1e1d7dd71406993",
+    "analysis/hpc/export_factorial.py": "1463d5bf8116ac1cc2c356c8c11ca60879af1d8b324e89bcd48091f15968e82c",
+    "analysis/hpc/export_factorial_ow.py": "db214479c3337862d9ffa28f014d0619e3dfa606a9510017fa3debcce3af1608",
+    "analysis/hpc/export_nontermination.py": "4a45d982e5051e196af07382b46d2f112598a7fe5438f5246e49c316ec3daf0d",
+    "analysis/hpc/token_usage.py": "82214593f2b570a40ef21b1be4c0a25c9bc78f0dd4dd68775f653de1a1a70db8",
+    "analysis/human_hierarchical_sdt.py": "df6e22f1f028a5c9850756c8d0e91e2652ed50e041fbc335a0e84812a38a5b2b",
+    "analysis/item_identifiability_v2.py": "409cabd8438de1938a2fb4ab2c2af4cf03da931b1585b2036ebb14c0b717bc6d",
+    "analysis/operational_denominators.py": "991d8b71e03db922232d16b826252dec95ef255e2384e664dea371993ea1080d",
+    "analysis/patterns_outputs/ad_rendered/code_commit.txt": "b09d36cca91fa17d1747244dedbc85de4841245f3a8b43125f4c54f614671a18",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/bd.xlsx": "f2109966492d218211a24c53907156f9a6af8f5f495f53b2aef8eea31f28c80a",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/ff.xlsx": "24a4a52ef07a59ddccd9b5bedfb6adf5cc14b3041a28aa1377eeaa077697727a",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/hd_comb.xlsx": "963d117a8fc94340051b982fbdf0763bc028aa8e5965fad5ab0f2cb86d5923ee",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description/hd_novel.xlsx": "5b38d8790bdbf22889dd12c5e319362df683926eccc325d7c3419bb4580ef457",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/bd.xlsx": "2903747aaf5cce6b43d308f84458531edf45c4e9d7a44cf75da9dd6bb40e89f9",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/ff.xlsx": "edc0ed4fc79a62d9ac372cf140ee52a1ab6669134d37f0e3ce531ae1f38c854d",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/hd_comb.xlsx": "0ee836f61970d565cd94352711db6129c201cb41b73d8275898562f6fb74dc08",
+    "analysis/patterns_outputs/ad_rendered/gemma4_26b/action_description_rendered/hd_novel.xlsx": "807403779b77c1a0dd6307d801522b6d0d4083c0d84c5325eacb0deea9d68eed",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/bd.xlsx": "8434638bef0b0d367477728ab3c54decac3ea341b88902dec06eb8b6f9adedfc",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/ff.xlsx": "bb134d603db7acf1f376aa3cd16685fd79dbdfc86dc72440d41870d5ef44f26d",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/hd_comb.xlsx": "67af4fde15a9b8a37eaf01010e79ab80e8fffed9539ae17898ec3e807558e321",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description/hd_novel.xlsx": "ba65e1fbff36c9a0802fb89d9aab22a9959a60c39d936595bab48d9d0bee80f1",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/bd.xlsx": "1d9d787fb1e23ea0cfa940d1d4b58e9dbef6e108e693999202003b7d55eed2b5",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/ff.xlsx": "dd487182e1454337c482c4ff815d929ff1a341e5484ef9d6c14d08c7d0f3a458",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/hd_comb.xlsx": "536114064d9e1b01bc3d9914134d938c73849a128ccf9f3f5b8b4707c6577823",
+    "analysis/patterns_outputs/ad_rendered/gemma4_31b/action_description_rendered/hd_novel.xlsx": "78e4eb7eb3a5a3cb90436a6cad35de12998af3a7306122c42430fdc0b3ccf135",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/bd.xlsx": "cb145b342bf124549f25995f86f35e7763cc56079e32ac56ea80992305c11534",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/ff.xlsx": "662d6a50c53e4b560024fe82314aeff25d4128d894623cb4fec343fb73666e34",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/hd_comb.xlsx": "00c2345b3ca358947af01c8c7d88a9cc0922b44fbeb1b44306922580f615e38c",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description/hd_novel.xlsx": "77037f652a065d0915c700ae516f8013ba997ef0683fdbe3b8b3fffa541d6f6a",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/bd.xlsx": "d304bbc4e872fb0e10ea24efa4f4cdca5734f0aa0f4c7e0589bcac056227c17d",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/ff.xlsx": "b976b1f28d0b613bfa4bc0332cf79a9024a8c5882c3baf15c4454523e8c56758",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/hd_comb.xlsx": "6ba184050558099ccae16b3e6591391156f72e1cb9cd1cbc3830d5aba190caa8",
+    "analysis/patterns_outputs/ad_rendered/qwen3.5_35b/action_description_rendered/hd_novel.xlsx": "900f4fd020c20c9b9a1179a12cf451e9b0f635675e15365dfb26c7c875135591",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/bd.xlsx": "9f5b5ec451ff857f31efe0e302a83474feb595f86542c51ff8b2ab3601cf17bc",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/ff.xlsx": "04f71eccdcf63b143e1262bd6bcdcd93a896f38b4344a03292ccaeaac1c24982",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/hd_comb.xlsx": "928d17f65f490750e440ad586abf73a6756bb55be9e77c1f3813f641387dee00",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/hd_comb_failures.jsonl": "d32376b1e86834f0bcd0f8708141421113cc771da5faa09a519dd3b0e7fd75b9",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/hd_novel.xlsx": "524bc55101062b2584aac2fdd3327966007935f6e7c89fea2841ca007c7f7333",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description/hd_novel_failures.jsonl": "36d411ac55bf85c727e7cc70dcad15c1ae34fa62e30df98a5b7421f2426f4e5b",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/bd.xlsx": "ffb01d8a1d675759ad78d878e6f56427657726d14aef986623c0e4813e444195",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/ff.xlsx": "ea1326240780106e339e07c01ed0693227eb9d5381350820a129517a4b66bb6a",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/hd_comb.xlsx": "782e730e85d8505a4a6c82b9144d4e679dc806274bc6fd19d7cd9fd822806e03",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/hd_comb_failures.jsonl": "905ddba628978acabbbff678b5433c39da5f163cd2937adad1a394fc8082886d",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/hd_novel.xlsx": "86d0d212733462d9f9078f11df325c51da8c70887402cef394596416ae46febb",
+    "analysis/patterns_outputs/ad_rendered/qwen3.6_27b/action_description_rendered/hd_novel_failures.jsonl": "aee337f55fdcb37cbed13df421f8860d4bfbd0602abc9c0d3422411cf44e25a1",
+    "analysis/patterns_outputs/ad_rendered_comparison.csv": "327de99397d400c73387bfc13ca6c0aa1b11dfb9c62e2c860edb493bd9e319e0",
+    "analysis/patterns_outputs/caption_fidelity_images.csv": "f1278503c660dc0a00a1e3b209ef0b99a7bab43fe8cb48e27ee9ef531d908f08",
+    "analysis/patterns_outputs/caption_fidelity_items.csv": "4cf22a58ab9ee07f2ec129142b380065a7f5c1207aa5246f393c9c0e9e9ecde6",
+    "analysis/patterns_outputs/caption_fidelity_prediction.csv": "8e66bb67ac2540c2f09ae46c0f6d4c4c6c1f08c724c4e0f6638c3080d95be5c4",
+    "analysis/patterns_outputs/caption_fidelity_summary.csv": "5e88957ac4d6e695dce617a63fdd009167623b6de2a2d9c501adce99872c7250",
+    "analysis/patterns_outputs/caption_structure_ow_d2_figures.csv": "573aa8cb75a145406a34476b22e31e0dc04222b57b7d200d9694b61c8ff794c5",
+    "analysis/patterns_outputs/caption_structure_ow_d2_items.csv": "b84253318fdfbae91b94da908a19924241860f24dfa7393e5a0dbdbfc5879cc4",
+    "analysis/patterns_outputs/caption_structure_ow_d2_summary.csv": "edf99618e926f8f2774c37b6c37e41f32be7e831a3887533232abaf5561274c0",
+    "analysis/patterns_outputs/caption_structure_ow_d3_figures.csv": "1296c1b2b39588a337f50595dba51166530f14c1bd7ae1b2f644f31787c150bb",
+    "analysis/patterns_outputs/caption_structure_ow_d3_items.csv": "9148224bc4762cad6eea617b1ffc085bb73862958bc502d45cbd6aa2a7cb681a",
+    "analysis/patterns_outputs/caption_structure_ow_d3_summary.csv": "97bfc1de7e8981f368621ca453e1221ad05161565f894cad6fdc418593b1febb",
+    "analysis/patterns_outputs/caption_structure_ow_d4_figures.csv": "d747c48fe946b398ee623969287fa0ed1a62d138246ba79f80e589db441474a5",
+    "analysis/patterns_outputs/caption_structure_ow_d4_items.csv": "a9597c69916722a1ab6d531158c387401aa075c531902b2bff6389a3bb6473f0",
+    "analysis/patterns_outputs/caption_structure_ow_d4_summary.csv": "dc4320a42019feb9232686813bf1926fe5790eb9dad72160ef9e687970308bee",
+    "analysis/patterns_outputs/caption_structure_ow_figures.csv": "547b1390d6a93c7b65b26f521e2d7e96017c7465f39e318a6aa654b11656801c",
+    "analysis/patterns_outputs/caption_structure_ow_items.csv": "3a8e39c4d5a0d3aefac023a3197b20a2a6e90806937d8ecf9a1223cf7e5a3457",
+    "analysis/patterns_outputs/caption_structure_ow_summary.csv": "aaa7c64dc88dd25c33e9e04a5b1d245214401c90ef5a26e60efffcb35703a03d",
+    "analysis/patterns_outputs/cue_overlap_items.csv": "c23d217606ea170a52ec1a3620ec670b4ea678cdab458bdd29077efb6cc077ae",
+    "analysis/patterns_outputs/cue_overlap_sensitivity.csv": "4fcb92055a82c5fe5ead78360af376683ba32ed40e9bc13b939f735bfb1ad6d0",
+    "analysis/patterns_outputs/factorial_captions/gemini-3.5-flash.jsonl": "ed8fd0377fa2cd1be4c58e4a71ec4c147b2d72ba5b3ab76c34f1911da513f183",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b.jsonl": "75c63efe4b0890110dd5673f230d06e6f07c7a65f15827405feaa333eeb33b17",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__d2.jsonl": "0cc083d01a50645d39165f25730a37a04fe2c96b20f1e2fb24c6b06dd333c969",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__d3.jsonl": "df49400f14c4e9946ac94febed48347cc91294921bc1b189051809ec8f037d47",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__d4.jsonl": "53902b587aa5332d5cf5d5cca8d906600531a2841c141129db302e9ef25f6a92",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__free.jsonl": "8ec602babfefc282254db0e649c62757059ef6be1ad49a1ae61e30f3370be019",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__free__d2.jsonl": "148e90b71788abc5c8dff334dba4138ba1690499f421155f079ce9d808d7e21b",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__free__d3.jsonl": "17b1b4738f34cb35ad386f1c4ade8b73b926a1056a5b5089eac1ccf04bc2a217",
+    "analysis/patterns_outputs/factorial_captions/gemma4_31b__free__d4.jsonl": "c427b8e4d0d524b3c6078a0f54a4498bc141e8428be9a1157327b4113234337a",
+    "analysis/patterns_outputs/factorial_captions/gpt-5.5.jsonl": "f8dabcbcab679c8c588d9f5f947cc61f710e6d0ada84af4f2e0fe6350cf8b97e",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b.jsonl": "c4907e1d5f026eea1e3c3796ffd91feb89ebb5519c4f8a5e33b4479bd5868767",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__d2.jsonl": "b4e5685676d7843a5af19c2fce6968c166f2a9b7022bb17991f49862511fcd63",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__d3.jsonl": "3f49c6abd2e328d4bef6cb70bd91ae6a1b5b34e9843398537e4522a1ef9f2a53",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__d4.jsonl": "5d18d63762370603769f5b72b1fce2a2be76b8012df2ce0da8c19035b6c0a609",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__free.jsonl": "1fc6bd026e897bda9ff3376c3b8861725c32579c2a1a414bd6f4488f7aa6723c",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__free__d2.jsonl": "5997456885d20e5da1999b635448ec89ffb39eb522b4549948b37ea2736196e2",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__free__d3.jsonl": "516e03cf12d2fb32383d28387861a021c57462ba249933f673db9aee94fbacf3",
+    "analysis/patterns_outputs/factorial_captions/qwen3.6_27b__free__d4.jsonl": "81111d7f25dd617ebc7948fe88231cde0c155bafc8c9727759273b512f1e0e27",
+    "analysis/patterns_outputs/factorial_cells_all.csv": "28e0777ea9f0c4dd9116530d051a2baeb8ca5d3da63431de2132ffd3e6cdcfe2",
+    "analysis/patterns_outputs/factorial_ow_cells.csv": "0f2dded04e92ee6a51bc7ebe85805f23c5bb1242a68402072fee367d3f2da1c5",
+    "analysis/patterns_outputs/factorial_ow_cells_strict.csv": "95818bc5bde27df43a7144e8c9b43fba24cf383de829614f09c990d6ba2f9d89",
+    "analysis/patterns_outputs/factorial_ow_gee.csv": "81a959f18af03f645a43b35a024971a3d8edd1b8fb70fa0a32b32bf793769acd",
+    "analysis/patterns_outputs/factorial_ow_gee_manifest.json": "f4ef86aa2b890a7a569d26e0c4e13567dd920ff764e56848e04c0863f1c75d7a",
+    "analysis/patterns_outputs/factorial_ow_matched_sensitivity.csv": "835ac546c02e680c0eb4a3e78c76086e7527cac3e421940437cadd3e674a30ce",
+    "analysis/patterns_outputs/factorial_ow_operational.csv": "d7f140fd731c5a62329828a919c8b92c68976afaef552c19f0867c2307c86268",
+    "analysis/patterns_outputs/factorial_ow_reporting_manifest.json": "ced96384261f4fb4927296157d28749742c37c9d5766a08f5724d4e58bcc4c06",
+    "analysis/patterns_outputs/factorial_ow_results.csv": "49c92dd4a8057f04b5ab4189974d323d4dfd3c39e073e382d24706f76a77efb5",
+    "analysis/patterns_outputs/factorial_ow_results_strict.csv": "47ddc4bcacfe933441c7e099a7486184f5b971c4f269307260b421d5baf72af7",
+    "analysis/patterns_outputs/factorial_ow_trials.csv": "567a8d52d6e26459ee27a8a9a775f55f1256c302d023c689449dec7c31ddf903",
+    "analysis/patterns_outputs/factorial_planned_model.csv": "3809172817cb367ab5a94d51c7141d24b38ba3db922e36c26e242715119589b3",
+    "analysis/patterns_outputs/factorial_trials.csv": "898491a454852f08f8fd8a81594668ba19dff928dccedf18654a07a19513ceda",
+    "analysis/patterns_outputs/item_identifiability_v2.csv": "035c949122fb39fd4f2881d92493f6f91f8b9b2808d65ba846e17a1e4b7d5f50",
+    "analysis/patterns_outputs/item_identifiability_v2_normal.csv": "5d8fb73c36c6f2f7231cdd969c2a3eedaa91eaa19ef38fa01b288f4725ef2713",
+    "analysis/patterns_outputs/machine_paired_cue_tests.csv": "438c40fb8e13de96fca12b10018ee2c24593e38279f185b58c529562fc8090e2",
+    "analysis/patterns_outputs/machine_paired_representation_tests.csv": "29462d6917daff6455c046bbac9221810642baa759653dfe2af0ec3f5bc9b69f",
+    "analysis/patterns_outputs/machine_paired_sdt.csv": "f029b0778c5ee62778e192958aacb1990f3961a17b4c9718858ba59e071aca36",
+    "analysis/patterns_outputs/machine_signal_detection_cells.csv": "c50618ec95ef3ef3dc84215032cebccae6fd7014c67aec2cb0ed3146d54d810c",
+    "analysis/patterns_outputs/machine_statistics.json": "171a2d74a0342a4d08428e02d888c1bc8f33c4c0d849497598b81b6e38bb8626",
+    "analysis/patterns_outputs/nontermination_by_cell.csv": "5ade6f08ca6c6719984874f0328118fc75f867996d8614eb203d7bffad42b3be",
+    "analysis/patterns_outputs/operational_cells.csv": "3a19e0eee736f516e5c892c43ea56e94dd2e7477a867a0c57527ed03e49231aa",
+    "analysis/patterns_outputs/operational_paired.csv": "e3e545a0d5a5ed43d4c92dd302aa8244e45118f8683e1a0e4cf1ddb5fff916f0",
+    "analysis/patterns_outputs/patterns_caption_sets.png": "fafd658ae356043c77f924974e63572a2bcb595b53c1c7e45f486175c7b73498",
+    "analysis/patterns_outputs/patterns_factorial_ladder.png": "35ec41520a3c1d331356005d8429b04d5cbd4011924c5a6e2862090e4210bbe1",
+    "analysis/patterns_outputs/patterns_model_profiles.png": "f3f6e1bb3623d0d5305afeef3d90a781cd43c5894b59445230545886b12acdc8",
+    "analysis/patterns_outputs/qwen36_blind_rerun.csv": "8fd8d97dc9429af064c4e4335f0d9c0630396bf0d22f5879906687854259d79b",
+    "analysis/patterns_outputs/qwen36_rerun/action_description/bd.xlsx": "693ab2112c34235731e72ac1e1f6980c21094b59942f84a536f8ca384f6ed607",
+    "analysis/patterns_outputs/qwen36_rerun/action_description/bd_failures.jsonl": "1492d43a1afe6d5d1c655417b09f460f47a823468ea16ac6986704168b932e47",
+    "analysis/patterns_outputs/qwen36_rerun/action_description/ff.xlsx": "ce545d208560d62828113eca0b002a3946a3c957234becdeda5bd83716e924e7",
+    "analysis/patterns_outputs/qwen36_rerun/action_description/hd_comb.xlsx": "dd424b0ca566ea6f2ef0d85777be4a881979d74de1d6fe985203e3914697ae32",
+    "analysis/patterns_outputs/qwen36_rerun/action_description/hd_comb_failures.jsonl": "7fe78bbfd59ef099a54a0d9f93f629357002a63860699e61f0263a532a49a9d9",
+    "analysis/patterns_outputs/qwen36_rerun/action_description/hd_novel.xlsx": "789e986ef16ebe9037a67d6bea2d3ef26892dd05960a2d9ed9d13f0e6d60efa5",
+    "analysis/patterns_outputs/qwen36_rerun/action_description_concept_v2/bd.xlsx": "c94567ab13c8bfe33b4ff8135af291cd9c8ad86bd05c55837268d40e1cda9e90",
+    "analysis/patterns_outputs/qwen36_rerun/aps/bd.xlsx": "b0090c66a12182b6c18c713cf8e6e7b745d1cecc29d6de17ece397b9b4b460a9",
+    "analysis/patterns_outputs/qwen36_rerun/aps/ff.xlsx": "8c349ad9945e9052a38ce45447a483176e2cab5a0f086f7f3f04f05d7c29e4ac",
+    "analysis/patterns_outputs/qwen36_rerun/aps/ff_failures.jsonl": "c4c3ce73f9a1883120589dbce4d798f783a86f9d4d20ee74fc7c1cc4286c528b",
+    "analysis/patterns_outputs/qwen36_rerun/aps/hd_comb.xlsx": "c02489a2573593b7505af53cded0aabbf041c07ce2bf4f1b3e68e2d6f84803c9",
+    "analysis/patterns_outputs/qwen36_rerun/aps/hd_comb_failures.jsonl": "778d2f16c1b50b3c8d10619a8a3e69b670643fb7fe1d88058bfcb174a01e3786",
+    "analysis/patterns_outputs/qwen36_rerun/aps/hd_novel.xlsx": "73bead8ee8018715b9c046841bb87b423cc86c26647c94f508af6c23fc5f155f",
+    "analysis/patterns_outputs/qwen36_rerun/aps/hd_novel_failures.jsonl": "430891834fe1fdfd8579e84d56bb665ac53474bbbdc78467539ea9af247a2c34",
+    "analysis/patterns_outputs/qwen36_rerun/aps_concept/bd.xlsx": "45b026411346e234e9fe835ac238f936dbfe929cbc030be068d4fd525c255f83",
+    "analysis/patterns_outputs/qwen36_rerun/aps_concept/ff.xlsx": "0abe17d53b7bb8b9a53de225a4ccb058e90e66eca265081a18f2cb1d3e004560",
+    "analysis/patterns_outputs/qwen36_rerun/aps_concept/hd_novel.xlsx": "e3aab90eb059f4acbe0abeda9fb03bde183f3c0ae4b589b117e26784dd24476c",
+    "analysis/patterns_outputs/qwen36_rerun/blind_items.csv": "8635cbf51a526b509cbb41292872f2c839cf639b702a761adc815e579c1d76a7",
+    "analysis/patterns_outputs/qwen36_rerun/code_commit.txt": "354142bacc469da0fbb41d59efaa54726643c2d30cec78acdb4732f782c1ce6b",
+    "analysis/patterns_outputs/qwen36_rerun/model_manifest_sha256.txt": "e3886a0639b3dfb29bcd24d803c922f52328541253c788a98e98642205522ff4",
+    "analysis/patterns_outputs/qwen36_rerun/run_rerun_desc.sbatch": "ce606eb7b05bf1fdc37089956564ec6377ebf95ceca13371f9787b2bec461622",
+    "analysis/patterns_outputs/qwen36_rerun/run_rerun_prog.sbatch": "994bcce1a64b8fed21fbeed03a7ee0b60b1897c35c2e2b8742a0b633140994c1",
+    "analysis/patterns_outputs/representation_sensitivity.csv": "3e5de90461ebcc82e11a327664cdeb38c223132c7106df39e01e727a762307c7",
+    "analysis/patterns_outputs/submission_coverage.csv": "ff8e8d3be6c2d779c1932be91778691b3a6ea026fa743d64c69bb074be31f691",
+    "analysis/patterns_statistics.py": "d3447f1ec373fb84446d34c634a7480384fe2abbd80497e9d33c1ce8eca61c26",
+    "analysis/patterns_submission_assets.py": "5aff9840165a532b9dd5457fe9ce58e67bb4ffeec16b31dcbc256a91d2aa7fa9",
+    "analysis/qwen36_blind_rerun.py": "044f82e2021b44f71f057d3d3fb91b60fed667469a790d34b8dc7c76944dc160",
+    "analysis/verify_manuscript_numbers.py": "1be97038989d0275fcec62d5998d1ffdcc9701e9044cf2f8e00e0637603e3e44",
+    "docs/blog.md": "4e65bddd208fd74121cbecf05376468b147131914bfa26c768a6460a44e98d8c",
+    "evaluation/.env.example": "af6b625908da4b7301ba8946af6bf810a0affcfec53d20ec1a599ad2b49ceadb",
+    "evaluation/LICENSE": "be8b4017e2100ae9e9865636c5399b6b678c9bd09b3db7c3b057f5418d2cd5dd",
+    "evaluation/README.md": "0e7e5af07a6e989a612b47176b3d4f2b245f446bb0c8862aa2fc538792fa872a",
+    "evaluation/config/bongard-logo-human/bd.yaml": "a0179c960d31496bbd5e972633176d9047f8931cd1984ff45dfc5fa4b7e4ae5c",
+    "evaluation/config/bongard-logo-human/bd_dvrl.yaml": "8f9674e6cd926e208adaaff5cb2594db967c6c1324317fd2c243e7e9e7e52642",
+    "evaluation/config/bongard-logo-human/ff.yaml": "a88edf08b93272650aa48f86f55ffa255567b88f1e12bc3002eccea9a9295c84",
+    "evaluation/config/bongard-logo-human/ff_dvrl.yaml": "21d242a973c333cd7939150daf3d195a4f01f2b82d97e004478ba6c5ed5c2d00",
+    "evaluation/config/bongard-logo-human/hd_comb.yaml": "6abdc137ad046254cff8cf68822018ad59a72071500455bfe1b3eba7e2f10a07",
+    "evaluation/config/bongard-logo-human/hd_comb_dvrl.yaml": "b59a202b22861dabd3972bc514b0c1b0376b458af57288326b9d8c9c8d3d553f",
+    "evaluation/config/bongard-logo-human/hd_novel.yaml": "813352b498a1e15299c422bd71e97f6d8433b6ece3f7e79c10abe7a710e5f1c6",
+    "evaluation/config/bongard-logo-human/hd_novel_dvrl.yaml": "a61fac7f62ef6e3533f53ed56a851ea3211f577c8fa372a78040a9b002152cf9",
+    "evaluation/config/factorial/design.yaml": "641634c53c9519a627b76c9f691bd85e6faf429539d75cb9b53bf979081961c0",
+    "evaluation/config/factorial/design_openweight.yaml": "481e109f57f39416c1ca051e296a4db881016dffe553009f80812a5f0dde3983",
+    "evaluation/data/factorial/irrelevant_cues.json": "bd09cc42520e1eee97659ab251d98ea2a89cc05bbd096fb5809818db01edc252",
+    "evaluation/data/factorial/wrong_cues.json": "bac8353f2bd5ed847234a777cdb3ff1e27f5d4768b6dfa93c75d19682870ad42",
+    "evaluation/data/factorial/wrong_cues_clean.json": "c86524dc83bc814a87465e1442e3955437dffcd0b6d9d26e80cfe251c88510a6",
+    "evaluation/docs/README.md": "044066076998df600776ea693bab809a09e327b596b03ecd47cf23c842661eef",
+    "evaluation/main.py": "30fccd59d304b4a55b248bbf32834edd7784e77a45100a4fabd2f472e819af04",
+    "evaluation/pyproject.toml": "544afcb307110a5d3d026397a9df9a835d56b2e8a15b6acdbc2d0ca145792cb9",
+    "evaluation/scripts/build_extra_cues.py": "4fc65d9053f2be07ecd01d670cc595b08fc04bb406b393e2f7df50dd0dc24673",
+    "evaluation/scripts/build_nested_programs.py": "19bd91bab88a830f0892f62325f4c02d983cccb197d2ddbb44c7e903f261d879",
+    "evaluation/scripts/drop_unparsed.py": "9eddf665932cbb778ef27337c44102ccb5014d4c654c83c0e560eef29ba6a03d",
+    "evaluation/scripts/ingest_batch_output.py": "c44b39689866ff1a083b4c480f8827ed45528ced8e675a7ffc944e63d7c20d5f",
+    "evaluation/scripts/merge_pilot.py": "75a7da55b555df8f003569d7005eab81483c3c24c90e8d5ca3397a101d7db87f",
+    "evaluation/scripts/probe_caption_think.py": "4bdafeb7fa6492ef73a7806c35c08b298d67a55c42fc6d3c8f2b72456e04adcb",
+    "evaluation/scripts/rescore_factorial.py": "990186e3d645b227dfd6c08d35616ec6d270cbd9e274b8963843c88ced488182",
+    "evaluation/scripts/run_factorial.py": "eee2781bae91148913c932af5fbc70b916ce25af2bdf47b659c3f71260cb96ed",
+    "evaluation/src/hmr/__init__.py": "2f0462a70cd3c0934bf022d9bb7d7c30ac5480cb219ea8521529880ea64b4c29",
+    "evaluation/src/hmr/batch.py": "bc7034a00232da9d6d26d7e598eff80d7ea1b810feef64db6f3bb374f44ac417",
+    "evaluation/src/hmr/datasets/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "evaluation/src/hmr/datasets/action_descriptions.py": "1ad9ab8622c33e01119d8a95be24070bbf8472f78f080c600f82f22ec689b03e",
+    "evaluation/src/hmr/datasets/bongard_logo_human.py": "313ffb698e86402b5272da761ab3db61dd051c49e94303debb1d1f6c589e08d8",
+    "evaluation/src/hmr/datasets/bongard_logo_human_images.py": "7377cf136f7ceda6d9b84ee8e0e5f09447ba21b18c209fb2d7b9f6e3c7ebd2dc",
+    "evaluation/src/hmr/datasets/shape_metadata.py": "ba99e9cb852d34ff5bafb6a702cf46d99eb1dd6be3251e62603df312a9f2d970",
+    "evaluation/src/hmr/factorial/__init__.py": "40f2d8c07c074e3ad74792eeef370b91b5533145a86babfbdc639b438dcdb085",
+    "evaluation/src/hmr/factorial/backends.py": "70f05c37070baa2bd6a48fa4647203edda5654edfc70aeb4b49cfbae5a33b3fd",
+    "evaluation/src/hmr/factorial/captions.py": "211145d529986b917fe6c7567779da96e6fa6a367216e4525fd92a12bc3cdf89",
+    "evaluation/src/hmr/factorial/design.py": "6c2eeb654e39333abc8e2e00386c2b3a214f1636b42234092fddbae7065d387c",
+    "evaluation/src/hmr/factorial/runner.py": "cf73252548dc13e3839516dfdd4834d72f683bda3f5ec3cb040a123d9e5e155b",
+    "evaluation/src/hmr/factorial/scoring.py": "1148781fbd4d8f08b56f1d9d6e6c37fabc92e4e8917c26c5c5bce02ef0924901",
+    "evaluation/src/hmr/io_utils.py": "49f5488ffb78591f62e375e0ca858ca298c35c364428091b78bf0e71fc90d7fc",
+    "evaluation/src/hmr/llm.py": "897f074b25776b32656799b8b63e6690df25ce749158ebc1a6a520c2a32729d4",
+    "evaluation/src/hmr/pipeline.py": "5422529c5b978f693d1e263e700757b51ba6341b3e64d8032654e6bae34d5778",
+    "evaluation/src/hmr/prompts.py": "75e632d162ba4b8513c93ee5b235f9c77cfaa680ac502704b301def5814a8223",
+    "evaluation/src/hmr/schemas.py": "e2fdca72b3a626a3c586dedbb214ec5d40f44a6ccc3cfc897f8cfc0364a62dd4",
+    "machine_result/clean_machine_data.csv": "dd7ad5a2eb64f32df85a6dc1f29cc00617df9746ae55c50bae85b221e5efb00b",
+    "requirements-analysis.txt": "5b0f802004c950e8c872a173d31aeda6ac91d49aa620a5d3ab4745e6cd5e4a57",
+    "scripts/archive_and_anonymize_human_data.py": "85fb7d36d82087fdf0a7983eb2ed7a2c1c7f4dcbf13f7e44aa3973f238e15fd3",
+    "scripts/prepare_patterns_public_snapshot.py": "f2377d883d7882cdbc332d66cfa976612f5bd9faf4beaa893b9c639cd11833a7",
+    "scripts/privacy_audit.py": "d03e5078599099260fbbe198d782719756c90e2e096e973bda73e762c900b193",
+    "scripts/verify_public_snapshot.py": "0427248bcd918326be3144ec5376ec37c47dd33e7d34b6b0d00a90b998638c57"
+  }
+}

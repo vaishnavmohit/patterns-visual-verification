@@ -1,0 +1,118 @@
+# Pre-registered factorial design: representation x cue x model x run.
+# Paths accept ${VAR} expansion from the environment / .env.
+
+data_dir: "${DATA_DIR}"
+image_dir: "${DVRL_IMAGE_DIR}"
+output_root: "${OUTPUT_DIR}/factorial"
+wrong_cue_file: "data/factorial/wrong_cues.json"
+
+# Captioner whose descriptions every model receives in the caption_strong cell.
+strong_captioner: "gemini-3.5-flash"
+
+representations: [pixels, caption_self, caption_strong, oracle_description, program]
+cues: [none, correct, wrong]
+
+# One greedy run plus three sampled runs. Providers that fix the temperature
+# (gpt-5.5) skip the greedy run; this is recorded in each cell manifest.
+runs:
+  - {name: greedy, temperature: 0.0, seed: 42}
+  - {name: s1, temperature: 1.0, seed: 1}
+  - {name: s2, temperature: 1.0, seed: 2}
+  - {name: s3, temperature: 1.0, seed: 3}
+
+max_attempts: 3          # regenerations per item before scoring as invalid
+max_tokens: 12288        # reasoning output budget (matches the archived runs)
+caption_max_tokens: 4096
+caption_think: false   # captioning is perceptual; thinking traces exhausted the budget on qwen3-vl in the pilot
+
+# Panel. Restricted to the three models that already have archived paired
+# pixel/description coverage (Table 2 of the manuscript): the selection
+# criterion is continuity with the archived paired comparison, not
+# performance. Other local aliases in the model store (qwen3-vl:32b,
+# qwen3-vl:8b, gemma4:31b, gemma4:26b, gemma4:e2b, qwen3:30b, qwen3:32b) can be
+# re-added here; vision=false restricts a model to caption_strong /
+# oracle_description / program. think mirrors the archived runs.
+# workers = concurrent requests.
+models:
+  gpt-5.5:
+    vision: true
+    think: false
+    supports_temperature: false
+    # Rate limiting. The caption stage saw 551 of 854 attempts return 429 -- 2,504
+    # short single-image calls fired back to back -- and the response was to
+    # serialise everything. The reasoning stage has a different shape: 50
+    # consecutive answered items logged ZERO transient retries, at a median 107.6 s
+    # per call. Serialised, that is latency-bound at ~33 rows/hour, and the 6,000
+    # reasoning calls would take 7 days. Four workers is ~15k tokens/min, well
+    # under any tier ceiling, and transient_retries in the results file is the
+    # instrument: if 429s reappear, lower this. The backend already retries 429
+    # with exponential backoff up to six times.
+    workers: 4
+    min_interval_s: 3.0
+    # GPT writes its own captions (the "middle path"): the recoverable share
+    # of the pixel-to-description gap on the strongest perceiver is the main
+    # robustness check on the Gemini result and cannot be estimated from
+    # another model's captions. Serialised at 1 worker / 3 s, the 2,504
+    # single-image calls take roughly a day without tripping the limit.
+    self_captions: true
+    # Two sampled runs instead of three. greedy is listed but skipped anyway
+    # because the provider fixes temperature, so this yields s1 and s2: enough
+    # for a run-to-run spread at two thirds the cost.
+    runs: [greedy, s1, s2]
+  gemini-3.5-flash:
+    vision: true
+    think: true
+    supports_temperature: true
+    workers: 4
+    min_interval_s: 0.5
+  # The open-weight arm. Qwen3-VL:30b was the pre-registered choice and could not
+  # finish: 468 of its first 750 caption attempts never terminated, so 44.3
+  # GPU-hours bought 18% of the caption stage. Gemma4:31b replaces it on the one
+  # criterion that arm failed -- it terminates. Its archived cells are complete
+  # at 200/200 on every interface with zero non-terminating traces, and its
+  # archived ladder is wide (pixels 0.56, descriptions 0.78, programs 0.86), so
+  # there is a large gap for self-captions to close or fail to close.
+  gemma4:31b:
+    vision: true
+    # Thinking off. Archived Gemma4 symbolic rows were produced without a trace
+    # and completed 200/200; the pixel rows carry traces with medians above
+    # 10,000 characters. One setting has to cover every representation here, and
+    # the failure that killed the previous open-weight arm was non-termination,
+    # so this takes the setting that is known to terminate on all of them.
+    think: false
+    max_tokens: 4096
+    num_ctx: 32768
+    workers: 1
+    # Two runs, not four. Six of the thirty cells carry thirteen images each and
+    # dominate the wall clock; two runs still give a run-to-run spread and fit
+    # inside the partition's five-day limit.
+    runs: [greedy, s1]
+  # Probe candidates for the open-weight arm. Both are complete at 200/200 on
+  # every archived interface with no non-terminating traces, and both have a
+  # wide archived ladder. Whether either can caption 2,504 figures in reasonable
+  # time is the open question: Qwen3-VL:30b failed by never terminating and
+  # Gemma4:31b by writing 4,000-token captions for a single figure, so the arm
+  # is chosen on caption throughput measured first, not on archived accuracy.
+  qwen3.6:27b:
+    vision: true
+    think: false
+    max_tokens: 4096
+    num_ctx: 32768
+    workers: 1
+    runs: [greedy]
+  qwen3.5:27b:
+    vision: true
+    think: false
+    max_tokens: 4096
+    num_ctx: 32768
+    workers: 1
+    runs: [greedy]
+  qwen3-vl:30b:
+    # Base output budget. The runner doubles it on an empty answer and stops
+    # after two consecutive full-budget traces (one with thinking disabled).
+    # Starting at 12288 made a non-terminating item cost ~30 minutes; at 4096
+    # it costs ~4 and is recorded with the reason.
+    max_tokens: 4096
+    vision: true
+    think: true
+    num_ctx: 32768

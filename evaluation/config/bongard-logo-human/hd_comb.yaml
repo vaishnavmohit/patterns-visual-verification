@@ -1,0 +1,23 @@
+model:
+  module: "hmr.pipeline"
+  function: "test_visual_concepts"
+  pos: pos
+  neg: neg
+  parameters:
+    dataset: "bongard_logo_human"
+    json_path: "${DATA_DIR}/Bongard_Logo_human/hd_comb.json"
+    output_base_dir: "${OUTPUT_DIR}/bongard_logo_human_hd_comb"
+    num_samples: 500
+    m: 6
+    n: 6
+    model: "deepseek-r1:14b"
+    bongard_context: action_program_summary
+    temperature: 0
+    max_tokens: 4096
+    num_ctx: 16384
+    shuffle_test_image: false
+    shuffle_pos_steps: false
+    shuffle_neg_steps: false
+    mix_pos_neg: false
+    noise_level: 0.0
+    think: true

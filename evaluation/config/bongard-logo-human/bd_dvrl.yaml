@@ -1,0 +1,18 @@
+model:
+  module: "hmr.pipeline"
+  function: "test_visual_concepts"
+  parameters:
+    dataset: "bongard_logo_human_images"
+    json_path: "${DATA_DIR}/Bongard_Logo_human/bd.json"
+    image_dir: "${DVRL_IMAGE_DIR}"
+    output_base_dir: "${OUTPUT_DIR}/bongard_logo_human_bd"
+    num_samples: 500
+    m: 6
+    n: 6
+    model: "qwen2.5vl:32b"
+    bongard_context: dvrl
+    temperature: 0
+    max_tokens: 4096
+    num_ctx: 32768
+    think: true
+    batch_mode: false

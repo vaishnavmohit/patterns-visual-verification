@@ -1,0 +1,21 @@
+{
+  "analysis_date": "2026-10-14",
+  "plan_commit": "ec3efd2",
+  "status": "repository-planned secondary, fitted after primary results were known",
+  "formula": "outcome ~ polarity(+/-0.5) * intervention + C(run)",
+  "correlation": "exchangeable, robust sandwich intervals clustered by base problem",
+  "missingness": "returned decisions within each condition; no imputation",
+  "scoring": [
+    "primary_A2",
+    "strict"
+  ],
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "statsmodels": "0.14.6",
+  "sha256": {
+    "analysis/patterns_outputs/factorial_ow_trials.csv": "567a8d52d6e26459ee27a8a9a775f55f1256c302d023c689449dec7c31ddf903",
+    "analysis/factorial_ow_secondaries.py": "1c0d573a3d07d76c153122edacb75544532a59722f3cd4db42f7a2fc3de7bda4",
+    "analysis/patterns_outputs/factorial_ow_gee.csv": "81a959f18af03f645a43b35a024971a3d8edd1b8fb70fa0a32b32bf793769acd"
+  }
+}

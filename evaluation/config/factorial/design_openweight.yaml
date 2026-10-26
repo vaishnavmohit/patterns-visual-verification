@@ -1,0 +1,54 @@
+# Open-weight replication of the factorial (docs/factorial_openweight_plan.md).
+# Separate output tree; the completed Gemini and GPT arms use design.yaml.
+
+data_dir: "${DATA_DIR}"
+image_dir: "${DVRL_IMAGE_DIR}"
+output_root: "${OUTPUT_DIR}/factorial_ow"
+wrong_cue_file: "data/factorial/wrong_cues.json"
+extra_cue_files:
+  wrong_clean: "data/factorial/wrong_cues_clean.json"
+  irrelevant: "data/factorial/irrelevant_cues.json"
+
+strong_captioner: "gemini-3.5-flash"   # unused here: no caption_strong cells
+
+# Cells actually run are chosen per job with --representations / --cues (see the plan):
+#   pixels, caption_self, oracle_description  x  none, correct, wrong, wrong_clean, irrelevant
+#   program                                   x  none, correct, wrong
+#   caption_self_free, oracle_description_rendered  x  none
+representations: [pixels, caption_self, caption_self_free, oracle_description, oracle_description_rendered, program]
+cues: [none, correct, wrong, wrong_clean, irrelevant]
+
+# Amendment A3: an independent sampled caption draw (temperature 1, seed 2) of
+# both caption protocols, stored as captions/<model>[__free]__d2.
+# Amendment A4: two further draws at the same temperature (seeds 3 and 4).
+caption_draws:
+  d2: {temperature: 1.0, seed: 2}
+  d3: {temperature: 1.0, seed: 3}
+  d4: {temperature: 1.0, seed: 4}
+
+runs:
+  - {name: greedy, temperature: 0.0, seed: 42}
+  - {name: s1, temperature: 1.0, seed: 1}
+
+max_attempts: 3
+max_tokens: 8192
+caption_max_tokens: 4096
+caption_think: false
+
+# think: false is now sent to Ollama explicitly (code c284932). Before that fix the
+# backend dropped it and these models reasoned by default.
+models:
+  gemma4:31b:
+    vision: true
+    think: false
+    max_tokens: 8192
+    num_ctx: 32768
+    workers: 1
+    runs: [greedy, s1]
+  qwen3.6:27b:
+    vision: true
+    think: false
+    max_tokens: 8192
+    num_ctx: 32768
+    workers: 1
+    runs: [greedy, s1]

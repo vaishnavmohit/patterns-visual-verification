@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this code and its research outputs."
+type: software
+title: "From supplied structure to self-generated captions in visual rule verification"
+authors:
+  - family-names: Vaishnav
+    given-names: Mohit
+  - family-names: Tammet
+    given-names: Tanel
+  - family-names: Aysel
+    given-names: Halil Ibrahim
+  - family-names: Kull
+    given-names: Meelis
+repository-code: "https://github.com/vaishnavmohit/patterns-visual-verification"
+license: MIT

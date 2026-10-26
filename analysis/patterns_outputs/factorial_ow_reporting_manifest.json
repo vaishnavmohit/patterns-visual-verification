@@ -1,0 +1,10 @@
+{
+  "seed": 20261012,
+  "resamples": 10000,
+  "scope": "Fixed outputs; exploratory common-returned-query sensitivities",
+  "sha256": {
+    "analysis/patterns_outputs/factorial_ow_trials.csv": "567a8d52d6e26459ee27a8a9a775f55f1256c302d023c689449dec7c31ddf903",
+    "analysis/patterns_outputs/cue_overlap_items.csv": "c23d217606ea170a52ec1a3620ec670b4ea678cdab458bdd29077efb6cc077ae",
+    "analysis/factorial_ow_reporting_checks.py": "dff12de47ccb28e8277dbf067f4c6409eb41362a5489ab66fe233cc982cce1c8"
+  }
+}

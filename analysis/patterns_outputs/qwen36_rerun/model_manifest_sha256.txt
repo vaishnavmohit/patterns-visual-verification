@@ -1,0 +1,1 @@
+07d35212591fc27746f0a317c975a6d68754fb38e9053d82e25f06057af28522  external-model-cache/ollama/models/manifests/registry.ollama.ai/library/qwen3.6/35b
